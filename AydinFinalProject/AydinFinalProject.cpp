@@ -239,7 +239,7 @@ public:
     void createOrder(const string& username, const string& dish) {
         orders.push_back(Order(username, dish));
         saveToFile();
-        cout << "✅ Your order has been accepted!\n";
+        cout << "Your order has been accepted!\n";
     }
     void showMyOrders(const string& username) const {
         cout << "\nYour orders:\n";
@@ -382,6 +382,7 @@ int main() {
             }
         }
         else if (choice == 0) {
+            cout << "Program finished!\n";
             cout << "Program finished!\n";
             break;
         }
