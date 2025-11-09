@@ -383,7 +383,6 @@ int main() {
         }
         else if (choice == 0) {
             cout << "Program finished!\n";
-            cout << "Program finished!\n";
             break;
         }
         else cout << "Invalid choice!\n";
